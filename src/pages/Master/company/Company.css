@@ -1,0 +1,30 @@
+.avatar-lg{
+
+    height: 10rem;
+    width: 12rem;
+    background-color: transparent;
+
+}
+
+.avatar-lg img {
+    width: 11rem;
+    height: 9rem;
+    object-fit: cover;
+    
+}
+
+
+.avatar-admin{
+
+    height: 4rem;
+    width: 4rem;
+    background-color: transparent;
+
+}
+
+.avatar-admin img {
+   
+    object-fit: cover;
+}
+
+#admin-img{}

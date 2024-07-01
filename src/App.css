@@ -1,0 +1,150 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+  /* width */
+  ::-webkit-scrollbar {
+    height:5px;
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius:10px
+    
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #405189;
+    border-radius:10px
+    
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #405189;
+}
+
+.upload-image {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  padding: 5px 0;
+  background-color: #405189;
+  border-radius: .5rem;
+  border: none;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.upload-image-no-bg {
+  background-color: #fff !important;
+  border: 1px dotted #ced4da;
+  /* color: transparent; */
+}
+
+.upload-image-no-bg p {
+  color: black !important;
+
+}
+
+.upload-image p {
+  margin: 0;
+  padding: 0;
+  color: #fff
+}
+
+.upload-image input {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  transform: scale(3);
+  opacity: 0;
+  z-index: 1000;
+}
+.image-show{
+  /* border: 2px dotted grey; */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 1rem;
+  height: 143px;
+  background-color: #d3d3d370;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-show .backImag{
+  margin: 0 auto;
+}
+.image-show .showimage{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.image-show1{
+  /* border: 2px dotted grey; */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 1rem;
+  height: 250px;
+  background-color: #d3d3d370;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-show1 .backImag{
+  margin: 0 auto;
+}
+.image-show1.showimage{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.required {
+  color: red;
+}

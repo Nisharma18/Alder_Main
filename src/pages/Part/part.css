@@ -1,0 +1,49 @@
+.avatar-lgp {
+    height: 10rem;
+    width: 10rem;
+    border: 2px dotted grey;
+    border-radius: 16px;
+
+}
+
+.avatar-lgp img {
+    height: 9rem;
+    width: 9.5rem;
+    margin: auto;
+}
+
+
+.backImag {
+    height: 5.5rem !important;
+    width: 5rem !important;
+}
+
+.avatar-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar-titles .showimage {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.avatar-titles span {
+    color: #405189;
+    font-weight: 400;
+}
+
+.bg-main {
+    border: 1px dotted grey !important;
+}
+.main-bg{
+    background-color: #405189 !important;
+    color: white !important;
+}
+.bg-main i {
+    color: #405189 !important;
+}
+
+
+/* #405189 main */

@@ -1,0 +1,6 @@
+.content{
+    white-space:"nowrap";
+    display: "flex";
+    justify-content: "space-around" !important;
+    padding-left: "0px";
+}    
